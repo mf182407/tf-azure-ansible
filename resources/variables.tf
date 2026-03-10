@@ -1,14 +1,3 @@
-variable "subscription_id" {
-  description = "The Azure Subscription ID"
-  type        = string
-  sensitive   = true
-}
-
-variable "environment" {
-  description = "The Azure Subscription Environment"
-  type        = string
-}
-
 variable "vm_username" {
   description = "The username for the VM administrator account"
   type        = string
